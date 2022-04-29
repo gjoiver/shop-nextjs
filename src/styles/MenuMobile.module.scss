@@ -1,0 +1,47 @@
+@import '_vars.scss';
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 24px;
+    position: absolute;
+    background-color: $white;
+    top:70px;
+    z-index: 1;
+}
+.mobile-menu a,.MyOrderTitle,.MyAccountTitle{
+    text-decoration: none;
+    color: $black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mobile-menu ul{
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid $very-light-pink;
+}
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile-menu .email{
+    font-size: $sm;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.mobile-menu .sign-out{
+    font-size: $sm;
+    color: $hospital-green;
+    cursor: pointer;
+}
+@media (min-width: 650px){
+    .mobile-menu{
+        display: none;
+    }
+}

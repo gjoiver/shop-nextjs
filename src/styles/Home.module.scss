@@ -1,0 +1,17 @@
+@import '_vars.scss';
+
+.home-menu{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+}
+.home-menu h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: $hospital-green;
+}
+.home-menu p{
+    font-size: $md;
+    color: $very-light-pink;
+}

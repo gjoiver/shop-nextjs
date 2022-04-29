@@ -1,0 +1,19 @@
+@import '_vars.scss';
+
+.not-found{
+    width: 100%;
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.not-found h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: $hospital-green;
+}
+
+.not-found p{
+    font-size: $sm;
+    color: $black;
+}
